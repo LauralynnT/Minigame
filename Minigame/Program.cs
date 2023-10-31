@@ -10,6 +10,17 @@ namespace Minigame
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("MiniGame");
+            Console.WriteLine();
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey(true);
         }
     }
 }
